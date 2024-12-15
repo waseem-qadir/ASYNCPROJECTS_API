@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: monospace, sans-serif;
+}
+
+#description{
+    text-transform: uppercase;
+}
+
+#container{
+    margin: auto;
+    position: relative;
+    display: block;
+    height: 450px;
+    width: 370px;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 0;
+    background: linear-gradient(45deg, 
+  hsl(0, 0%, 5%) 0%,      
+  hsl(0, 0%, 11%) 25%,     
+  hsl(0, 0%, 17%) 50%,     
+  hsl(0, 0%, 22%) 75%,     
+  hsl(0, 0%, 31%) 100%);
+    
+    margin-top: 2rem;
+    border-radius: 3em;
+    color: white;
+    transition: background-color 1s ease;
+}
+
+#searchbar{
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+}
+#city{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+#searchbarinput{
+    border:none;
+    border-bottom: solid 1px white;
+    background:transparent;
+    color: white;
+    width: 90%;
+    outline: none;
+    background-color: none;
+}
+
+#temp{
+    font-size: 1.5em;
+}
+
+.low{
+    margin-top: 90px;
+}
+
+#search{
+   border: none;
+   background-color: transparent;
+   color: white;
+}
+
+#date{
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+
+
+#temp{
+    margin-top: 20px;
+}
+
+#extra{
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+    position: absolute;
+    bottom:2 ;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    
+
+}
+
+#extra h5 {
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
+

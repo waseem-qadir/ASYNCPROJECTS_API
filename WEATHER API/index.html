@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div id="container">
+        <!-- search bar -->
+         <div id="searchbar">
+             <input type="text" id="searchbarinput" placeholder="search for city">
+             <button id="search">
+                 <i class="fas fa-search"></i> 
+               </button>
+            
+         </div>
+         
+         <!-- date  and city-->
+          <div id="infor">
+            <p id="date"></p>
+            <h2 id="city"></h2>
+          </div>
+
+          <!-- weather IMG -->
+           <div id="tempImg">
+
+           </div>
+
+           <!-- description -->
+         <div id="description"></div>
+         
+         <!-- temp -->          
+         <div id="temp"></div>
+
+         <!-- extra info -->
+          <div id="extra">
+            <div id="col">
+                <div id="info">
+                    <h5>highs</h5>
+                    <p id="tempmax"></p>
+                </div>
+                
+            </div>
+            
+            <div id="col">
+                <div id="info">
+                    <h5>lows</h5>
+                    <p id="tempmin"></p>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- humidity -->
+         
+            <div class="low">
+                <h5>humidity</h5>
+                <p id="humidity"></p>
+            </div>
+         
+
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

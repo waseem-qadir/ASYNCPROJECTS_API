@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokedex</title>
+    <link rel="stylesheet" href="styleone.css">
+    <link rel="stylesheet" href="styletwo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="conatiner">
+<!-- first half -->
+        <div id="firsthalf">
+            <!-- top section -->
+            <div id="top">
+                <div id="topsquareone">
+                    <div id="buttonwhite"></div>
+                    <div id="buttonblue"></div>
+                    
+                    <div id="topsquaretwo">
+                        <div id="buttonred"></div>
+                        <div id="buttongreen"></div>
+                        <div id="buttonyellow"></div>
+                    </div>
+               
+                </div>
+               
+                <div id="screen">
+                    <div id="buttonredscreen"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div id="mainscreen">
+                        <img src="" id="pokeimg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- bottom -->
+             <div id="bottom">
+                <div id="buttonbluebottom"></div>
+                <div id="yellowbottom"></div>
+                <div id="buttongreenbottom"></div>
+                <div id="buttonorangebottom"></div>
+                <div id="dpadhorizontal"></div>
+                <div id="dpadvertical"></div>
+             </div>
+            <div id="bottomtwo">
+
+            </div>
+        </div>
+   <!-- hinge -->
+
+   <div id="hinge"></div>
+
+   <!-- second half -->
+    <div id="secondhalf">
+        <div id="secondhalftop">
+            <div id="topsquare">
+                <div id="hidden"></div>
+            </div>
+        </div>
+        
+
+        <div id="searchbar">
+
+          <input type="text" id="seachbarInput" placeholder="search for pokemon">
+          <button id="searchbtn" onclick="fetchpokedata()"><i class="fa fa-search" ></i></button>
+        </div>
+  
+        <div id="sectiontwo">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+
+        
+
+            
+    
+            <div id="sectionthree">
+                <div id="topStats">
+                    <div class="coll">
+                        <p id="hp"></p>
+                        
+                    </div>
+                    <div class="coll">
+                       <p id="move"></p>
+                      
+                    </div>
+                </div>
+                <div id="bottomstats">
+                    <div class="coll">
+                        <p id="attack"></p>
+                        
+                    </div>
+                    <div class="coll">
+                        <p id="defence"></p>
+                        
+                    </div>
+                </div>
+            </div>
+       
+       
+
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

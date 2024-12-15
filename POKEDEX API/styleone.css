@@ -1,0 +1,278 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+    background-color: #fce386;
+    padding: 20vh;
+    height: 100%;
+    
+    
+    
+}
+
+
+
+#firsthalf{
+     width: 350px;
+     height: 520px;
+     background-color: #fc2243;
+    
+     
+     z-index: 3;
+   
+
+}
+
+#top{
+    width: 75%;
+   
+    margin: auto;
+    height: 50%;
+    position: relative;
+    background: none;
+    border-radius: 0%;
+    z-index: 1;
+}
+
+#topsquareone{
+    
+    width: 55%;
+    margin: auto;
+    background-color: #d50625;
+    height: 25%;
+    z-index: 1;
+    position: absolute;
+    left: -16.5%;
+}
+
+#topsquaretwo{
+   
+    background: #d50625;
+    height: 60%;
+    margin: auto;
+    z-index: 3;
+    width: 162%;
+    position: absolute;
+    left: 80%;
+
+}
+
+
+
+
+ #buttonwhite{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    margin:5px 0 0 5px ;
+    z-index: 2;
+    
+}
+
+
+
+#buttonblue{
+    background-color: skyblue;
+    height: 43px;
+    width: 43px;
+    border-radius: 100%;
+    margin: auto;
+    position: absolute;
+    left: 6%;
+    top: 13%;
+    z-index: 3;
+
+}
+
+#buttonred{
+    
+    
+    background-color:#fc2243;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    
+    margin: auto;
+    top: 45%;
+    left: -18%;
+    cursor: pointer;
+    
+        
+    } 
+
+    #buttonyellow{
+        background-color:#f3ff13;
+        height: 15px;
+        width: 15px;
+        border-radius: 100%;
+        position: absolute;
+       
+        margin: auto;
+        top: 45%;
+        left: -10%;
+        cursor: pointer;
+    }
+
+    #buttongreen{
+        background-color:#10f317;
+        height: 15px;
+        width: 15px;
+        border-radius: 100%;
+        position: absolute;
+        
+        margin: auto;
+        top: 45%;
+        left: -2%;
+        cursor: pointer;
+
+    }
+
+    #screen{
+        
+        position: absolute;
+        background-color: #e6e6e6;
+        height: 75%;
+        width: 90%;
+        flex-direction: column;
+        margin: auto;
+        border-radius: 5%;
+       
+        top: 30%;
+        left: 5%;
+        
+    }
+
+    #buttonredscreen{
+        background-color:#d50625;
+        height: 15px;
+        width: 15px;
+        border-radius: 100%;
+        position: absolute;
+        display: block;
+        margin: auto;
+        bottom: 2%;
+        left: 3%;
+        cursor: pointer;
+        
+    }
+
+    .bar{
+        background-color: gray;
+        height: 4%;
+        width: 20%;
+        bottom: 2%;
+        right: 2%;
+      position: absolute;
+        margin-bottom: 1.5%;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+
+#mainscreen{
+    position: absolute;
+    
+    height: 80%;
+    margin: auto;
+    background-color: lightblue;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    border-radius: 2em;
+    
+}
+
+#bottom{
+    width:90%;
+    display: block;
+    height: 50%;
+    background:none;
+    margin: auto;
+    position: relative;
+}
+
+#buttonbluebottom{
+    position: absolute;
+    background-color: rgb(69, 177, 220);
+    height: 43px;
+    width: 43px;
+    border-radius: 100%;
+    margin: auto;
+    
+    left: 6%;
+    top: 13%;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#yellowbottom{
+    position: absolute;
+    background-color: rgb(236, 236, 44);
+    height: 43px;
+    width: 100px;
+    border-radius: 0%;
+    margin: auto;
+  
+    left: 20%;
+    bottom: 13%;
+    cursor: pointer;
+    
+}
+
+#buttongreenbottom{
+    cursor: pointer;
+    position: absolute;
+    background-color: rgb(80, 243, 30);
+    height: 12px;
+    width: 50px;
+    border-radius: 15%;
+    margin: auto;
+    
+    left: 30%;
+    top: 13%;
+    
+}
+
+#buttonorangebottom{
+    cursor: pointer;
+    position: absolute;
+    background-color: rgb(232, 134, 22);
+    height: 12px;
+    width: 50px;
+    border-radius: 15%;
+    margin: auto;
+    
+    left: 48%;
+    top: 13%;
+}
+
+#dpadhorizontal{
+    cursor: pointer;
+    position: absolute;
+    background-color:rgb(76, 76, 76);
+    height: 30px;
+    width: 80px;
+    border-radius: 0%;
+    margin: auto;
+   
+    right: 8%;
+    top: 40%;
+}
+
+#dpadvertical{
+    position: absolute;
+    background-color:rgb(76, 76, 76);
+    height: 80px;
+    width: 30px;
+    border-radius: 0%;
+    margin: auto;
+   
+    right: 16%;
+    top: 30%;
+    cursor: pointer;
+}
+
